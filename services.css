@@ -1,0 +1,48 @@
+form {
+    border: 3px solid #a1a381;
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: rgb(211, 152, 70);
+    padding: 26px;
+}
+h2{
+    text-align: center;
+    font-size: 50px;
+}
+
+.style body {
+    background-image: url('https://www.pexels.com/photo/colleagues-having-a-meeting-9479834/');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+  }
+
+  .footer {
+    text-align: center;
+    background-color:rgb(125, 136, 153);
+
+}
+.footer a {
+    padding:0.5em;
+
+}
+
+.clients{
+    width: 200px;
+    height: 100vh;
+    position: relative;
+    background: #e8ecff;
+}
+.view-box{
+    width: 900px;
+    height: 400px;
+    position: absolute;
+    border-radius: 220px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
